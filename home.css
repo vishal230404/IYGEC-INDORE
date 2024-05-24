@@ -1,0 +1,287 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ededee;
+}
+.head {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url("./imagesAbout/backgroundimage.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.head::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+.head h1 {
+    position: relative;
+    margin: 0;
+    font-size: 48px;
+    z-index: 2;
+}
+.head h2 {
+  position: relative;
+  margin: 0;
+  font-size: 96px;
+  z-index: 2;
+}
+.head p {
+  position: relative;
+  margin: 0;
+  font-size: 21.333px;
+  z-index: 2;
+}
+@media (max-width: 1024px) {
+    .head h1 {
+      position: relative;
+    margin: 0;
+    font-size:40px;
+    z-index: 2;
+    }
+    .head h2 {
+      position: relative;
+      margin: 0;
+      font-size: 72px;
+      z-index: 2;
+    }
+    .head p {
+      position: relative;
+      margin: 0;
+      font-size: 19px;
+      z-index: 2;
+    }
+}
+@media (max-width: 630px) {
+    .head h1 {
+      position: relative;
+    margin: 0;
+    font-size: 35px;
+    z-index: 2;
+    }
+    .head h2 {
+      position: relative;
+      margin: 0;
+      font-size: 46px;
+      z-index: 2;
+    }
+    .head p {
+      position: relative;
+      margin: 0;
+      font-size: 17px;
+      z-index: 2;
+    }
+}
+
+
+.welcome{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.welcome-img{
+    width: 100% ;
+}
+
+
+.invitation{
+  padding-top: 20px;
+  background-color: #7f7b7b;
+  padding-bottom: 20px;
+    font-size: 22.6667px;
+    margin-bottom: 4px;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.invitation-heading{
+    font: bold;
+}
+.invitation-text{
+  line-height: 45px;
+  font-size: 24px;
+  font-family: Georgia,arial;
+  margin-top: 20px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .host-city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    background-color: #f0f0f0; /* Optional: Background color for the section */
+  }
+
+  .host-city1 {
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px; /* Space between sections */
+  }
+.host-city-img, .host-city-text {
+    width: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 20px; /* Space between sections */
+  }
+
+  .host-city img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media (min-width: 768px) {
+    .host-city {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .host-city1 {
+      width: 100%;
+    }
+
+    .host-city2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px; /* Optional: Limit the maximum width of the flex container */
+    }
+
+    .host-city-img, .host-city-text {
+      width: 45%; /* Width for image and text in the flex layout */
+      max-width: none;
+      margin-bottom: 0; /* Remove bottom margin for flex items */
+    }
+  }
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Background color for the map section */
+  }
+
+  .map-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better visuals */
+  }
+
+  @media (max-width: 768px) {
+    .map {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .map-img img {
+      max-width: 90%; /* Make image slightly smaller on smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .map {
+      padding: 5px; /* Further reduce padding on very small screens */
+    }
+
+    .map-img img {
+      max-width: 100%; /* Ensure image takes full width of the container on very small screens */
+    }
+  }
+
+
+  
+.container {
+    text-align: center;
+}
+.main-logo {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.chapter-images {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    gap: 20px; /* Adjust gap between items */
+    padding: 20px;
+  }
+
+  .chapter {
+    flex: 1 1 200px; /* Adjust the minimum width of each chapter */
+    max-width: 300px; /* Adjust the maximum width of each chapter */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better visuals */
+    padding: 10px;
+    background-color: #f9f9f9; /* Add background color for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+
+  .chapter img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px; /* Rounded corners for images */
+  }
+
+  .chapter p {
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+
+  .chapter:hover {
+    transform: scale(1.05); /* Slightly enlarge the chapter on hover */
+  }
+
+  @media (max-width: 768px) {
+    .chapter {
+      flex: 1 1 45%; /* Make chapters occupy nearly half the container on smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .chapter {
+      flex: 1 1 100%; /* Make chapters occupy the full width of the container on very small screens */
+    }
+  }
+
+
+

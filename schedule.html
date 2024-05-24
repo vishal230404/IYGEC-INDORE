@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Schedule - 10th IYGEC 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .header {
+            background-image: url('./images/shedule.jpg'); /* Placeholder for the actual image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Overlay with reduced opacity */
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            position: relative;
+            z-index: 1;
+            max-font-size: 35px; /* Ensure font size does not exceed 35px */
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            margin-top: -20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .details {
+            display: inline-block;
+            text-align: left;
+            margin-top: 20px;
+            max-font-size: 35px; /* Ensure font size does not exceed 35px */
+        }
+        .table-container {
+            width: 100%;
+            max-width: 90%;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 15px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        @media (min-width: 1024px) {
+            .table-container {
+                max-width: 70%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="homeContent"></div>
+
+    <div class="header">
+        <h1>Schedule</h1>
+    </div>
+
+    <div class="content">
+        <div class="details">
+            <p><span class="bold">Venue details:</span> Auditorium, IIT Indore</p>
+            <p>Benefits during <span class="bold">10IYGEC</span>:</p>
+            <p>
+                &bull; Subjected availability free accommodation will be provided to the presenting author.<br>
+                &bull; Eminent personalities will be invited, and <span class="bold">keynote lectures</span> will be organized for the event.<br>
+                &bull; The young engineers will be encouraged by honoring the <span class="bold">best paper award</span>.
+            </p>
+            <p>One field visit will be arranged</p>
+        </div>
+        <h2>Tentative Outline of 10th IYGEC 2025</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>TIMINGS</th>
+                        <th>Day 1 (7/03/2025)</th>
+                        <th>Day 2 (8/03/2025)</th>
+                        <th>Day 3 (9/03/2025)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00-10:00</td>
+                        <td>Resistration & Coffee</td>
+                        <td></td>
+                        <td rowspan="11">Site Visit</td>
+                    </tr>
+                    <tr>
+                        <td>10:00-11:00</td>
+                        <td>Opening Ceremony</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00-12:00</td>
+                        <td>Technical Season 1</td>
+                        <td>Technical Season 3</td>
+                    </tr>
+                    <tr>
+                        <td>12:00-02:00</td>
+                        <td>Lunch</td>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>02:00-03:00</td>
+                        <td>Keynote Lecture 1</td>
+                        <td>Keynote Lecture 2</td>
+                    </tr>
+                    <tr>
+                        <td>03:00-04:00</td>
+                        <td>Coffee break & exhibition</td>
+                        <td>Coffee break & exhibition</td>
+                    </tr>
+                    <tr>
+                        <td>04:00-05:00</td>
+                        <td>Technical Season 2</td>
+                        <td>Technical Season 4</td>
+                    </tr>
+                    <tr>
+                        <td>05:00-05:30</td>
+                        <td>Exhibition</td>
+                        <td>Exhibition</td>
+                    </tr>
+                    <tr>
+                        <td>05:30-06:30</td>
+                        <td rowspan="3">TBD</td>
+                        <td>Cultural Activities</td>
+                    </tr>
+                    <tr>
+                        <td>06:30-07:30</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>07:30-08:30</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script src="footer.js"></script>
+    <script src="navbar.js"></script>
+</body>
+</html>

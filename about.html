@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>About 10th IYGEC 2025</title>
+  <style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #ededee;
+    }
+    .banner {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background-image: url("./imagesAbout/backgroundimage.jpg");
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+    }
+    .banner h1 {
+        position: relative;
+        margin: 0;
+        font-size: 3.5em;
+        z-index: 2;
+    }
+    @media (max-width: 1024px) {
+        .banner h1 {
+          position: relative;
+        margin: 0;
+        font-size: 3em;
+        z-index: 2;
+        }
+    }
+    @media (max-width: 630px) {
+        .banner h1 {
+          position: relative;
+        margin: 0;
+        font-size: 2em;
+        z-index: 2;
+        }
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    main {
+        width: 70%;
+        margin: 0 auto;
+        text-align: justify;
+        font-family: Georgia, Arial;
+        line-height: 1.6;
+        font-weight: 400;
+        font-size: 14pt;
+        vertical-align: baseline;
+    }
+    @media (max-width: 1024px) {
+        main {
+            width: 85%;
+        }
+        h1 {
+            font-size: 2em; 
+        }
+    }
+    @media (max-width: 630px) {
+        main {
+            width: 100%;
+        }
+        h1 {
+            font-size: 1.4em;
+        }
+    }
+    .container1 {
+        display: flex;
+        flex-direction: row;
+    }
+    @media (max-width: 1024px) {
+        .container1 {
+            flex-direction: column;
+        }
+    }
+    .container1 p {
+        padding-left: 30px;
+        font-size: 16px;
+    }
+    @media (max-width: 630px) {
+        .container1 p {
+            text-align: justify;
+            margin: 0 auto;
+            padding: 0;
+            padding-top: 30px;
+            width: 85%;
+        }
+    }
+    .container1 img {
+        width: 365px;
+    }
+    @media (max-width: 1024px) {
+        .container1 img {
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: 630px) {
+        .container1 img {
+            margin: 0 auto;
+            width: 80%;
+        }
+    }
+    .container2 {
+        text-align: center;
+    }
+    @media (max-width: 630px) {
+        .container2 {
+            margin: 0 auto;
+            padding: 0;
+            padding-top: 30px;
+            width: 85%;
+        }
+    }
+    .container2 img {
+        display: inline-block;
+    }
+    @media (max-width: 1024px) {
+        .container2 img {
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: 630px) {
+        .container2 img {
+            margin: 0 auto;
+            width: 80%;
+        }
+    }
+    .container3 {
+        text-align: center;
+    }
+    @media (max-width: 630px) {
+        .container3 {
+            margin: 0 auto;
+            width: 90%;
+        }
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    @media (max-width: 1024px) {
+        section {
+            flex-direction: column;
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: 630px) {
+        section {
+            flex-direction: column;
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+    .headings {
+        text-align: center;
+    }
+    @media (max-width: 630px) {
+        .headings {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+    }
+
+    .logo{
+        text-align: end;
+    }
+   @media (max-width: 630px) {
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        width: 170px;
+    }
+   }
+</style>
+</head>
+<body>
+
+    <div id="homeContent"></div>
+
+<div>
+  <!-- banner -->
+    <div class="banner">
+        <h1>About 10th IYGEC 2025</h1>
+    </div>
+    <main>
+        <!-- heading 1 -->
+        <h1 class="headings">About IGS Local Chapters</h1>
+        <br />
+        <!-- container1 -->
+        <div class="container1">
+          
+            <img src="./imagesAbout/localChapter.jpg" alt="" />
+            <p>
+                The Indian Geotechnical Society (IGS) is a highly esteemed
+                professional organization dedicated to the advancement of Geotechnical
+                Engineering in India. The Local Chapters of the Society were
+                introduced in 1968, and at present, fifty-two (52) Local Chapters
+                (Ujjain recently formed) are functional.
+            </p>
+        </div>
+        <br />
+      
+        <div class="container2">
+            <!-- heading 2 -->
+            <h1 class="headings">About Civil Engineering, IIT Indore</h1>
+            <p>
+                Since its founding in 2016, the Department of Civil Engineering has
+                been committed to leading the way in both basic and applied research
+                with the goal of solving problems in the real world. Offering a
+                comprehensive four-year program culminating in a bachelor’s degree in
+                Civil Engineering, M. Tech, as well as a PhD program, the department
+                actively engages in sponsored research projects supported by various
+                entities within the Government of India and global industries.
+            </p>
+            <br />
+            <p style="color: #666666; font-style: italic">
+                Faculty members are self-motivated and internationally experienced,
+                boasting expertise across a spectrum of civil engineering disciplines
+                including Geotechnical, Structural, Transportation, Water Resources,
+                and Environmental Engineering. With a vision to become a leading
+                academic center nationally and globally, the Department of Civil
+                Engineering emphasizes active industry engagement and seeks
+                collaborations on both national and international levels.
+            </p>
+            <br />
+            <img src="./imagesAbout/air_view_lhc.jpg" alt="" />
+            <br />
+            <br />
+            <hr />
+        </div>
+        <div class="container3">
+            <h1>Call for paper themes</h1>
+            <section>
+                <img src="./imagesAbout/theme1.jpg" alt="" />
+                <img src="./imagesAbout/theme2.jpg" alt="" />
+                <img src="./imagesAbout/theme3.jpg" alt="" />
+            </section>
+            <br />
+            <br />
+            <section>
+                <img src="./imagesAbout/theme4.jpg" alt="" />
+                <img src="./imagesAbout/theme5.jpg" alt="" />
+                <img src="./imagesAbout/theme6.jpg" alt="" />
+            </section>
+            <br />
+            <br />
+            <section>
+                <img src="./imagesAbout/theme7.jpg" alt="" />
+                <img src="./imagesAbout/theme8.jpg" alt="" />
+                <img src="./imagesAbout/theme9.jpg" alt="" />
+            </section>
+            <br />
+            <br />
+            <section>
+                <img src="./imagesAbout/theme10.jpg" alt="" />
+                <img src="./imagesAbout/theme11.jpg" alt="" />
+            </section>
+            <br />
+            <hr />
+        </div>
+        <br />
+    </main>
+</div>
+  <div id="footer-placeholder"></div> <!-- Placeholder for footer -->
+  <script src="footer.js"></script>
+  <script src="navbar.js"></script> <!-- Include script for dynamic navbar loading -->
+</body>
+</html>

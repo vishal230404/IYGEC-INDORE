@@ -1,0 +1,170 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ededee;
+}
+.banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url("./imagesVenueAccomodation/backgroundAirViewlhc.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+.banner h1 {
+    position: relative;
+    margin: 0;
+    font-size: 4em;
+    z-index: 2;
+    font-family: Roboto, Arial;
+}
+
+@media (max-width: 1024px) {
+    .banner h1 {
+        font-size: 3em;
+    }
+}
+@media (max-width: 630px) {
+    .banner h1 {
+        font-size: 2.2em;
+    }
+}
+main {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: Georgia, Arial;
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 14pt;
+    vertical-align: baseline;
+    word-spacing: 2px;
+}
+@media (max-width: 1024px) {
+    main {
+        width: 85%;
+    }
+    h1 {
+        font-size: 2em; 
+    }
+}
+@media (max-width: 630px) {
+    main {
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+}
+h1 {
+    text-align: center;
+}
+.logo {
+    text-align: end;
+}
+@media (max-width: 630px) {
+    .logo {
+        text-align: center;
+    }
+    .logo img {
+        width: 170px;
+    }
+}
+
+.containerA {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Increased gap */
+    justify-content: center;
+}
+
+
+.containerA img {
+    width: calc(50% - 20px); /* Adjusted width for increased gap */
+    height: auto;
+    margin: 10px 0; /* Added margin for extra spacing */
+}
+@media (max-width: 768px) {
+    .containerA img {
+        width: 100%;
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+}
+
+.hotels {
+    margin-top: 20px;
+}
+.hotels h3 {
+    color: #039be5;
+}
+.hotels table {
+    width: 100%;
+    font-size: medium;
+    border-collapse: collapse;
+   
+}
+.hotels th, .hotels td {
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+.hotels th {
+    font-weight: bold;
+}
+.hotels td.name {
+    color: #039be5;
+}
+.hotels td.name a {
+    color: #039be5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: medium;
+}
+ .map {
+    width: 100%;
+    text-align: center;
+}
+.map iframe {
+    width: 55%;
+    height: 300px;
+    border: 0;
+}
+@media (max-width: 768px) {
+    .map iframe {
+        width: 90%;
+        height: 350px;
+    }
+}
+@media (max-width: 480px) {
+    .map iframe {
+        width: 100%;
+        height: 250px;
+    }
+}

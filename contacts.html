@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>contect</title>
+  <style>
+    body,
+   html {
+       margin: 0;
+       padding: 0;
+       height: 100%;
+       background-color: #ededee;
+   }
+   .banner {
+       position: relative;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 400px;
+       background-image: url("./imagesContact/backgroundimage.jpg");
+       background-position: center center;
+       background-size: cover;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+   }
+   .banner::before {
+       content: "";
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background-color: rgba(0, 0, 0, 0.4);
+       z-index: 1;
+   }
+   .banner h1 {
+       position: relative;
+       margin: 0;
+       font-size:4.5em;
+       z-index: 2;
+       font-family: Roboto, Arial;
+   }
+   
+   @media (max-width: 1024px) {
+       .banner h1 {
+         position: relative;
+       margin: 0;
+       font-size: 4em;
+       z-index: 2;
+       }
+   }
+   @media (max-width: 630px) {
+       .banner h1 {
+         position: relative;
+       margin: 0;
+       font-size: 3em;
+       z-index: 2;
+       }
+   }
+   main {
+       width: 70%;
+       margin: 0 auto;
+       text-align: justify;
+       font-family: Georgia, Arial;
+       line-height: 1.6;
+       font-weight: 400;
+       font-size: 14pt;
+       vertical-align: baseline;
+   }
+   @media (max-width: 1024px) {
+       main {
+           width: 85%;
+       }
+       h1,h2 {
+           font-size: 2em; 
+       }
+   }
+   @media (max-width: 630px) {
+       main {
+           width: 90%;
+       }
+       h1,h2 {
+           font-size: 1.3em;
+       }
+   }
+   h1,h2{
+       text-align: center;
+   }
+   .logo{
+       text-align: end;
+   }
+  @media (max-width: 630px) {
+   .logo{
+       text-align: center;
+   }
+   .logo img{
+       width: 170px;
+   }
+  }
+  .container1{
+    text-align: center;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+  <div id="homeContent"></div>
+  
+<div>
+<div class="banner">
+  <h1>Contacts</h1>
+</div>
+<br>
+<main>
+      <div class="container1">
+      <p>
+          <h2 >Contact Details for 10th IYGEC 2025 Sponsorship</h2>
+
+          <h3 style="color: blue;">For General Queries</h3>
+          Dr. Baadiga Ramu, IIT Indore
+          <br>
+          Chairman, 10th IYGEC 2025
+          <br>
+          Assistant Professor, Department of Civil Engineering,
+          <br>
+          Indian Institute of Technology, Indore
+          <br>
+          Khandwa Road, Simrol, Indore - 453552, India.
+          <br>
+          Mobile:	+ 91- 9083688190
+          <br>
+          Mobile: +91- 7675015763
+          <br>
+          Email: 10iygec2025@gmail.com
+          <br>
+          <br>
+          <hr>
+          
+          <h3 style="color: blue;">Technical queries</h3>
+          Technical relevant queries could be sent to the following email ID:
+          <br>
+          Email: 10iygec2025@gmail.com 
+          <br>
+          <br>
+          <hr>
+          <h3>For more queries, fill the form attached below</h3>
+          <br>
+
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJlwjGR3b_LFmuFqm5TSt9Exibbs0NK_w99X-QeMhEl35kkQ/viewform?embedded=true" width="640" height="1160" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+      </p>
+  </div>
+</main>
+</div>
+  <div id="footer-placeholder"></div> <!-- Placeholder for footer -->
+  <script src="footer.js"></script>
+  <script src="navbar.js"></script> <!-- Include script for dynamic navbar loading -->
+</body>
+</html>

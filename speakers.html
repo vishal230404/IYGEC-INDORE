@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Speakers</title>
+  <style>
+    body,
+   html {
+       margin: 0;
+       padding: 0;
+       height: 100%;
+       background-color: #ededee;
+   }
+   .banner {
+       position: relative;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 400px;
+       background-image: url("./imagesSpeakers/backgroundimage.jpg");
+       background-position: center center;
+       background-size: cover;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+   }
+   .banner::before {
+       content: "";
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background-color: rgba(0, 0, 0, 0.4);
+       z-index: 1;
+   }
+   .banner h1 {
+       position: relative;
+       margin: 0;
+       font-size:4.5em;
+       z-index: 2;
+       font-family: Roboto, Arial;
+   }
+   
+   @media (max-width: 1024px) {
+       .banner h1 {
+         position: relative;
+       margin: 0;
+       font-size: 4em;
+       z-index: 2;
+       }
+   }
+   @media (max-width: 630px) {
+       .banner h1 {
+         position: relative;
+       margin: 0;
+       font-size: 3em;
+       z-index: 2;
+       }
+   }
+   main {
+       width: 70%;
+       margin: 0 auto;
+       text-align: justify;
+       font-family: Georgia, Arial;
+       line-height: 1.6;
+       font-weight: 400;
+       font-size: 14pt;
+       vertical-align: baseline;
+   }
+   @media (max-width: 1024px) {
+       main {
+           width: 85%;
+       }
+       h1 {
+           font-size: 2em; 
+       }
+   }
+   @media (max-width: 630px) {
+       main {
+           width: 100%;
+       }
+       h1 {
+           font-size: 1.4em;
+       }
+   }
+   h1{
+       text-align: center;
+   }
+   .logo{
+       text-align: end;
+   }
+  @media (max-width: 630px) {
+   .logo{
+       text-align: center;
+   }
+   .logo img{
+       width: 170px;
+   }
+  }
+</style>
+</head>
+<body>
+  <div id="homeContent"></div>
+
+<div>
+<div class="banner">
+  <h1>Speakers</h1>
+</div>
+<br>
+<main>
+  <div>
+      <h1>To be Announced....</h1>
+  </div>
+</main>
+
+</div>
+  <div id="footer-placeholder"></div> <!-- Placeholder for footer -->
+  <script src="footer.js"></script>
+  <script src="navbar.js"></script> <!-- Include script for dynamic navbar loading -->
+</body>
+</html>

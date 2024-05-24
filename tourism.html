@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Cultural and Tourism</title>
+</head>
+<style>
+    .body{
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    .one{
+        text-align: center;
+        margin-top: 280px;
+        font-size: 35px;
+    }
+    .one::before{
+        background: url(./images/bg.jpg) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 60%;
+            z-index: -1;
+            opacity: 0.65;
+    }
+    .two{
+        color: #2f5597;
+        margin-top: 200px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .three::before{
+        background: url(./images/kathak.jpg) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 80%;
+            z-index: -1;
+            opacity: 0.65;
+    }
+    .four{
+        margin-top: 150px;
+        font-size: 30px;
+        color: #2f5597;
+        font: bold;
+        text-align: center;
+    }
+   
+    .five{
+        text-align: center;
+        flex-wrap: wrap;
+        color: white;
+        font-size: 30px;
+    }
+    .five h1{
+        padding: 20px 0px;
+    }
+    .five1{
+        text-align: center;
+        flex-wrap: wrap;
+        color: white;
+        font-size: 30px;
+    }
+    .five1 h1{
+        padding: 20px 0px;
+    }
+    .five2{
+        text-align: center;
+        flex-wrap: wrap;
+        color: white;
+        font-size: 30px;
+    }
+    .five2 h1{
+        padding: 20px 0px;
+    }
+    .five3{
+        text-align: center;
+        flex-wrap: wrap;
+        color: white;
+        font-size: 30px;
+    }
+    .five3 h1{
+        padding: 20px 0px;
+    }
+    .five::before{
+        background: url(./images/spritual.jpg);
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 15%;
+            z-index: -1;
+            opacity: 1;
+    }
+    .five1::before{
+        background: url(./images/heritage.jpg);
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 15%;
+            z-index: -1;
+            opacity: 1;
+    }
+    .five2::before{
+        background: url(./images/nature.jpg) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 15%;
+            z-index: -1;
+            opacity: 1;
+    }
+    .five3::before{
+        background: url(./images/wildlife.jpg)  no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 15%;
+            z-index: -1;
+            opacity: 1;
+    }
+    .fcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .fitem{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 270px;
+        margin: 10px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .fitem h3{
+        font: bold;
+    }
+    
+    
+    .webd{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .none{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 270px;
+        margin: 50px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .none1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media only screen and (max-width: 655px){
+        .one{
+        text-align: center;
+        margin-top: 280px;
+        font-size: 25px;
+        }
+        .one::before{
+            height: 50%;
+        }
+        .three::before{
+            height: 120%;
+        }
+        .two{
+            font-size: 20px;
+        }
+        .four {
+            font-size: 20px;
+        }
+        .five {
+            font-size: 20px;
+        }
+        .five1 {
+            font-size: 20px;
+        }
+        .five2 {
+            font-size: 20px;
+        }
+        .five3 {
+            font-size: 20px;
+        }
+        .four::before {
+            height: 10%;
+        }
+        .five::before {
+            height: 10%;
+        }
+        .five1::before {
+            height: 10%;
+        }
+        .five2::before {
+            height: 10%;
+        }
+        .five3::before {
+            height: 10%;
+        }
+       
+}
+  
+.shiv{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+    
+</style>
+<body>
+    <div id="homeContent"></div>
+
+    <div>
+        <div class="one">
+            <h1>
+                Cultural and Tourism
+            </h1>
+         </div>
+         <div class="two">
+            <h1>
+                Cultural and Events
+            </h1>
+         </div>
+            <div class="three">
+
+                <div class="webd">
+    
+                    <div class="none">
+                        <img src="./images/file.jpg" alt="" height="210px" width="250px" class="num1">
+                    </div>
+                    <div class="none">
+                        <img src="./images/circle.jpg" height="210px">
+                    </div>
+                </div>
+                <div>
+                    <div class="none1" >
+                        <img src="./images/p2.jpg" height="210px" >
+                    </div>
+                </div>
+            </div>
+            <div class="four">
+               <h1>
+                   Tourism
+               </h1>
+            </div>
+            <div class="five">
+                <h1 >
+                    Spritual
+                </h1>
+                 
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/ujj.jpg" alt="" height="200px" width="280">
+                    <h3>Ancient city Ujjain</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/chit.jpg" alt="" height="200px" width="280">
+                    <h3>Devout Chitrakoot</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/amar.jpg" alt="" height="200px" width="280">
+                    <h3>Divine Amarkantak</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/maihar.jpg" alt="" height="200px" width="280">
+                    <h3>Goddesses' Abode Maihar</h3>
+                </div>
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/maheshwar.jpg" alt="" height="200px" width="280">
+                    <h3>Magnificent Maheshwar</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/mandsaur.jpg" alt="" height="200px" width="280">
+                    <h3>Sublime Mandsuar</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/omkareshwar.jpg" alt="" height="200px" width="280">
+                    <h3>Spiritual Omkareshwar</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/orcha.jpg" alt="" height="200px" width="280">
+                    <h3>Majestic  Orchha</h3>
+                </div>
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/sanchi.jpg" alt="" height="200px" width="280">
+                    <h3>Sacred Sanchi</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/datia.jpg" alt="" height="200px" width="280">
+                    <h3>Celestial Datia</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/burhanpur.jpg" alt="" height="200px" width="280">
+                    <h3>Revered Burhanpur</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/gwalior.jpg" alt="" height="200px" width="280">
+                    <h3>Melodie Gwalior</h3>
+                </div>
+            </div>
+            <div class="five1">
+                <h1 >
+                    Heritage
+                </h1>
+                 
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/bhim.jpg" alt="" height="200px" width="280">
+                    <h3>Amazing Bhimbetka</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/chanderi.jpg" alt="" height="200px" width="280">
+                    <h3>Beauty of Chanderi</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/khajuraho.jpg" alt="" height="200px" width="280">
+                    <h3>Graceful Khajuraho
+                    </h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/jabalpur.jpg" alt="" height="200px" width="280">
+                    <h3>Funfair of Jabalpur</h3>
+                </div>
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/indore.jpg" alt="" height="200px" width="280">
+                    <h3>Regal Indore</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/mandu.jpg" alt="" height="200px" width="280">
+                    <h3>Magical Mandu</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/bhopal.jpg" alt="" height="200px" width="280">
+                    <h3>The City of Lakes Bhopal
+                    </h3>
+                </div>
+            </div>
+            <div class="five2">
+                <h1 >
+                    Nature
+                </h1>
+                 
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/bhedaghat.jpg" alt="" height="200px" width="280">
+                    <h3>Breathtaking Bhedaghat</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/tawa.jpg" alt="" height="200px" width="280">
+                    <h3>Pristine Tawa & Madai</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/tamia.jpg" alt="" height="200px" width="280">
+                    <h3>Pristine Tamla</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/pachmarhi.jpg" alt="" height="200px" width="280">
+                    <h3>Serene Pachmarhi</h3>
+                </div>
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/sailani islands.jpg" alt="" height="200px" width="280">
+                    <h3>Scenic Sailani Island</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/hanuwantiya.jpg" alt="" height="200px" width="280">
+                    <h3>Thrilling Hanuwantiya</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/ali.jpg" alt="" height="200px" width="280">
+                    <h3>Enticing Alirajpur</h3>
+                </div>
+            </div>
+            <div class="five3">
+                <h1 >
+                        Wildlife
+                </h1>
+                 
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/rewa.jpg" alt="" height="200px" width="280">
+                    <h3>Rewa</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/panna.jpg" alt="" height="200px" width="280">
+                    <h3>Panna</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/kanha.jpg" alt="" height="200px" width="280">
+                    <h3>Kanha</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/bhadavgarh.jpg" alt="" height="200px" width="280">
+                    <h3>Bandavgarh</h3>
+                </div>
+            </div>
+            <div class="fcontainer">
+                <div class="fitem">
+                    <img src="./images/pench.jpg" alt="" height="200px" width="280">
+                    <h3>Pench</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/parsili.jpg" alt="" height="200px" width="280">
+                    <h3>Parsili</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/tiger.jpg" alt="" height="200px" width="280">
+                    <h3>Kuno National Park</h3>
+                </div>
+                <div class="fitem">
+                    <img src="./images/peacock.jpg" alt="" height="200px" width="280">
+                    <h3>Peacock</h3>
+                </div>
+            </div>
+        </div>
+
+
+       <div id="footer-placeholder"></div> <!-- Placeholder for footer -->
+  <script src="footer.js"></script>
+  <script src="navbar.js"></script>
+</body>
+</html>
